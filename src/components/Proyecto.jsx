@@ -11,18 +11,18 @@ const Proyecto = () => {
     <div className={s.container}>
       <div className={s.Proyecto}>
         <div className={s.Proye}>
-          <img className={s.img} src={country} alt="imf" />
+          <img className={s.img} src='https://www.weare-family.com/petfanmx/wp-content/uploads/sites/10/2021/03/adopcion-mascotas.jpg'alt="imf" />
           <p className={s.parra}>
-            Desarrollé una App Countries que incluye: búsquedas, filtrados,
-            ordenamientos y creación, Usa datos traídos desde una API externa y
-            también desde su propia base de datos. Desarrollé la App usando para
-            el Frontend: React, Redux y CSS puro, y para el Backend : Node.js
-            con Express, Base de datos en PostgreSQL y Sequelize.
+          este Proyecto Surgio  con la idea de hacer un beneficio social,
+          concientizar a las personas a optar por animales y no venderlos. 
+          Sobre todo buscar ayudar a los animales que se encuentran en malas condiciones de vida,
+          sin comer y sin salud.
+          se Proporciona una conexión entre la persona que quiere ayudar a un animal a que lo adopten y darle un buen hospedaje y vida
           </p>
           <div className={s.botones}>
             <a
               className={s.demo}
-              href="https://github.com/joseandrescolmenares/PI-Countries-main"
+              href="https://github.com/FrancoG21/PF-Henry-Front"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -34,7 +34,7 @@ const Proyecto = () => {
             </a>
             <a
               className={s.demo}
-              href="https://client-rose-phi.vercel.app/"
+              href="https://pf-henry-front-three.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -44,22 +44,13 @@ const Proyecto = () => {
                 alt="proyecto"
               />
             </a>
-            <a className={s.demo}
-             href="https://youtu.be/Q9du6uveAMs"
-            target="_blank"
-              rel="noopener noreferrer">
-            
-              <img
-                className={s.youtube}
-                src="https://img.icons8.com/material/2x/youtube.png" alt='icono'
-              />
-            </a>
+           
           </div>
         </div>
 
         <div className={s.Proye}>
           {" "}
-          <img className={s.img} src={recipe} alt="imf" />
+          <img className={s.img} src="https://gestion.portalbiesa.com/redaccio/arxius/imatges/201902/770_1550480986blog_post_consejo_perro_adoptado_1.jpg" alt="imf" />
           <p className={s.parra}>
             Se trata de una SPA, utilizando React y Redux para el Front End.
             La SPA consume datos de una API a través de un
@@ -71,7 +62,7 @@ const Proyecto = () => {
           <div className={s.botones}>
             <a
               className={s.demo}
-              href="https://github.com/joseandrescolmenares/food-pi"
+              href="https://github.com/EFAM2907/Proyecto-De-Perros"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -88,62 +79,8 @@ const Proyecto = () => {
                 alt="proyecto"
               />
             </a>
-
-            <a className={s.demo}
-            href='https://youtu.be/P6P7q6VXmiI'
-            target="_blank"
-              rel="noopener noreferrer">
-              <img
-                className={s.youtube}
-                src="https://img.icons8.com/material/2x/youtube.png" alt='icono'
-              />
-            </a>
           </div>
-        </div>
-
-        <div className={s.Proye}>
-          <img className={s.img} src={finder} alt="img" />
-          <p className={s.parra}>
-            Esta aplicación fue Desarrollada por 7 integrantes, trabajando con
-            metodología ágil Scrum, con Sprints semanales y presentaciones con
-            Product Owner. Uso de tecnología React, Redux, Material UI para el
-            front-end; NodeJS con Express para el back-end; PostgreSQL,
-            Sequelize y Firebase para la base de datos.{" "}
-          </p>
-          <div className={s.botones}>
-            <a
-              className={s.demo}
-              href="https://github.com/AlejandroColina/proyectoFinal"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                className={s.icon}
-                src="https://img.icons8.com/fluency/344/github.png"
-                alt="proyecto"
-              />
-            </a>
-            <a
-              className={s.demo}
-              href="https://finder-app-omega.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                className={s.icon}
-                src="https://img.icons8.com/emoji/344/link-emoji.png"
-                alt="proyecto"
-              />
-            </a>
-            <a className={s.demo} href="https://youtu.be/50a_X2Gx3PM" target="_blank"
-              rel="noopener noreferrer">
-              <img
-                className={s.youtube}
-                src="https://img.icons8.com/material/2x/youtube.png" alt='icono'
-              />
-            </a>
-          </div>
-        </div>
+        </div> 
       </div>
     </div>
   );

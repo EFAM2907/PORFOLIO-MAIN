@@ -8,15 +8,15 @@ const About = () => {
         
       <div className={style.conten}>
       <Fade right> 
-        {" "}
+     
         <img
         className={style.img}
-          src={yo}
+          src='https://avatars.githubusercontent.com/u/97002137?s=400&u=fe94a8c4e468bf829e185bff7afd4d3212701fe9&v=4'
           alt="yo"
         />
         <div className={style.info}> 
-       <p className={style.parrafo}>👋 Hola! Mi nombre es Jose, soy un joven estudiante de desarrollo web que busca ingresar a la tecnología. Me gusta aprender nuevas tecnologías, ser parte de comunidades y sentir curiosidad por las criptomonedas.</p>
-      <a className={style.boton} href='https://drive.google.com/file/d/1XLW_gth9XU0hbb_70QwiYPmp7pCA1aco/view?usp=sharing' target="_blank" rel="noopener noreferrer">ver CV</a>
+       <p className={style.parrafo}>👋 Hola! Mi nombre es edwin,Soy un Desarollador Full Stack Con Inclinacion al Frontend! Siempre busque Algo que me sacara de lo rutinario Y De Repente Boom 💥Encontre Mi Lugar</p>
+      <a className={style.boton} href='https://drive.google.com/file/d/1bvhggXv_9rjPF7O9-5eltfdw19nll56s/view?usp=sharing' target="_blank" rel="noopener noreferrer">ver CV🚀</a>
        </div>
        </Fade>
       </div>

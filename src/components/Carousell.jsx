@@ -45,42 +45,7 @@ function Carousell() {
       <SwiperSlide>
         {<img src={aprender} alt="certificado" className={s.img} />}
       </SwiperSlide>
-      <SwiperSlide>
-        {<img src={basico} alt="certificado" className={s.img} />}
-      </SwiperSlide>
-      <SwiperSlide>
-        {<img src={css} alt="certificado" className={s.img} />}
-      </SwiperSlide>
-      <SwiperSlide>
-        {<img src={curso} alt="certificado" className={s.img} />}
-      </SwiperSlide>
-      <SwiperSlide>
-        {<img src={definitivo} alt="certificado" className={s.img} />}
-      </SwiperSlide>
-      <SwiperSlide>
-        {<img src={esructurado} alt="certificado" className={s.img} />}
-      </SwiperSlide>
-      <SwiperSlide>
-        {<img src={fundamento} alt="certificado" className={s.img} />}
-      </SwiperSlide>
-      <SwiperSlide>
-        {<img src={html} alt="certificado" className={s.img} />}{" "}
-      </SwiperSlide>
-      <SwiperSlide>
-        {<img src={maqueta} alt="certificado" className={s.img} />}
-      </SwiperSlide>
-      <SwiperSlide>
-        {<img src={masGrid} alt="certificado" className={s.img} />}
-      </SwiperSlide>
-      <SwiperSlide>
-        {<img src={seguridad} alt="certificado" className={s.img} />}
-      </SwiperSlide>
-      <SwiperSlide>
-        {<img src={poo} alt="certificado" className={s.img} />}
-      </SwiperSlide>
-      <SwiperSlide>
-        {<img src={masSeguridad} alt="certificado" className={s.img} />}
-      </SwiperSlide>
+  
      
       .............
     </Swiper>

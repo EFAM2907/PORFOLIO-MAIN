@@ -62,7 +62,7 @@ const Principal = () => {
       <footer className={s.footer}>
         <div className={s.conte_iconos}>
           <a
-            href="https://www.linkedin.com/in/jose-colmenares-480074233/"
+            href="https://www.linkedin.com/in/edwinfer2907/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -73,7 +73,7 @@ const Principal = () => {
             />
           </a>
           <a
-            href="https://github.com/joseandrescolmenares"
+            href="https://github.com/EFAM2907"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -83,21 +83,11 @@ const Principal = () => {
               alt='img'
             />
           </a>
-          <a
-            href="https://twitter.com/Joseee_andresss"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              className={s.icono}
-              src="https://img.icons8.com/color/344/twitter-squared.png"
-              alt='img'
-            />
-          </a>
+         
         </div>
         <div className={s.center}>
           <a
-            href="https://drive.google.com/file/d/1XLW_gth9XU0hbb_70QwiYPmp7pCA1aco/view?usp=sharing"
+            href="https://drive.google.com/file/d/1bvhggXv_9rjPF7O9-5eltfdw19nll56s/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className={s.cv}

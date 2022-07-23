@@ -79,9 +79,9 @@ align-items: center;
 }
 
 .botones{
-    display: flex;
-   justify-content:space-between;
-    margin: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5px;
 }
 
 .icon{

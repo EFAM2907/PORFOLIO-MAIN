@@ -32,18 +32,11 @@ const Animacion = () => {
           <div className={style.cen}>
             <p className={style.p}>Hi, My Name is edwin arias</p>
             <p className={style.sub}>Full stack developer</p>
+            
+            
+
             <div className={style.centrar}>
-              {/* <a
-                href="https://twitter.com/Joseee_andresss"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  className={style.iconos}
-                  src="https://img.icons8.com/ios-filled/344/twitter-squared.png"
-                  alt='icono'
-                />
-              </a> */}
+            
               <a
                 href="https://github.com/EFAM2907"
                 target="_blank"
@@ -65,8 +58,11 @@ const Animacion = () => {
                   src="https://img.icons8.com/ios-filled/344/linkedin.png"
                   alt='icono'
                 />
-              </a>
+              </a> 
+              
             </div>
+          
+
           </div>
 
           <Modal className={style.modal} open={modal} onClose={abrirCerrarModal}>
