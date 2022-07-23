@@ -1,0 +1,105 @@
+
+.container{
+  width:100%;
+height : 100vh;
+background-color: rgb(6 6 6);
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+.Proyecto{
+ display: flex;
+  flex-wrap: wrap;
+  align-items:center;
+}
+
+.img{
+  margin-bottom:20px;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+/* .unicaImg{
+  height:300px;
+  width:100%;
+  border-radius: 10px;
+  padding-top: 10px;
+} */
+
+.Proye{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+ border: 1px solid rgb(73, 73, 73);
+    border-radius: 15px;
+    width: 350px;;
+    color: aliceblue;
+    height: 550px;
+   
+}
+
+
+.parra{
+  font-family: 'Open Sans', sans-serif;
+  margin:10px;
+}
+
+
+.youtube{
+  width:50px;
+  height:60px;
+  background-color: aliceblue;
+  border-radius:20px;
+ margin-right: 20px;
+ transform-style: preserve-3d;
+}
+
+.youtube:hover{
+  padding: 3px 4px;
+  overflow:hidden;
+  transition:1s;
+}
+
+
+
+
+
+.demo{
+    
+    border-radius:10px;
+    color:rgb(0, 0, 0);
+   text-align:center;
+    
+}
+
+.botones{
+    display: flex;
+   justify-content:space-between;
+    margin: 15px;
+}
+
+.icon{
+  height:60px;
+  background-color:aliceblue;
+  border-radius: 50px;
+}
+
+.icon:hover{
+    padding: 3px 4px;
+    overflow:hidden;
+    transition:1s;
+  }
+
+
+
+
+
+
+  
+

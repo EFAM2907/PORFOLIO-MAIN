@@ -1,0 +1,22 @@
+.Canvas{
+    width:200px;
+    height: 200px;
+    background-color:#060606;
+    border-radius:30px;
+}
+
+.container{
+    width:65%;
+    height:90%;
+    border-radius: 30px;;
+    
+}
+
+
+
+.titu{
+    margin-bottom: 30px;
+    color: aliceblue;
+    font-size: 1.8em;
+
+}
