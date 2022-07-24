@@ -1,11 +1,6 @@
 import React from "react";
 import s from "./css/Proyecto.module.css";
-import ReactPlayer from "react-player";
-import Slide from "react-reveal/Slide";
-import country from "./img/proye country.png";
 
-import recipe from "./img/proye recipes.png";
-import finder from "./img/proyecto_finder.png";
 const Proyecto = () => {
   return (
     <div className={s.container}>

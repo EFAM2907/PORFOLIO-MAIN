@@ -7,19 +7,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import aprender from "./img/aprender.png";
-import basico from "./img/basico de javascript.png";
-import css from "./img/css gripd.png";
-import curso from "./img/curso de prewor.png";
-import definitivo from "./img/definitivo.png";
-import esructurado from "./img/estructurado.png";
-import fundamento from "./img/fundamentos de ing.png";
-import html from "./img/hatml.png";
-import maqueta from "./img/maquetacion.png";
-import masGrid from "./img/mas grid.png";
-import seguridad from "./img/mas seguridad.png";
-import poo from "./img/orientada a objeto.png";
-import masSeguridad from "./img/seguridad.png";
 import henry from './img/titulo.png'
 
 function Carousell() {
@@ -42,9 +29,7 @@ function Carousell() {
         <SwiperSlide>
         {<img src={henry} alt="certificado" className={s.img} />}
       </SwiperSlide>
-      <SwiperSlide>
-        {<img src={aprender} alt="certificado" className={s.img} />}
-      </SwiperSlide>
+     
   
      
       .............

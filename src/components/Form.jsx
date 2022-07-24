@@ -1,40 +1,23 @@
 import React from "react";
 import s from "./css/Form.module.css";
 import { TextField } from "@material-ui/core";
-import emailjs from "@emailjs/browser";
-import {ToastContainer, toast } from "react-toastify";
+import {ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Noti from './Noti'
 const Form = ({ abrirCerrarModal }) => {
   
-  
+
 
   const sendEmail = (e) => {
-    e.preventDefault();
-    emailjs
-      .sendForm(
-        "service_yquthlf",
-        "template_u8se0t9",
-        e.target,
-        "2I82ak1lECf_Cl7Uh"
-      )
-      .then(toast(<Noti/>, {
-        position: "top-center",
-        autoClose: 4000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        
-    }),abrirCerrarModal() )
+    e.preventDefault()
+    .then(
+    abrirCerrarModal() )
       .catch(error => (console.log(error)));
   };
 
   return (
     <div className={s.container}>
       <h1 className={s.titu}>deja tu Feedback aqui 👇</h1>
-      <form className={s.Form} onSubmit={(e) => sendEmail(e)}>
+      <form className={s.Form} onsubmit={e => sendEmail(e)} action="https://formsubmit.co/efam2907@gmail.com" method="POST">
         <div>
           <TextField
             className={s.input}
@@ -47,10 +30,10 @@ const Form = ({ abrirCerrarModal }) => {
         <div>
           <TextField
             className={s.input}
-            type="text"
+            type="email"
             variant="filled"
             label="correo"
-            name="user_email"
+            name="email"
           />
         </div>
         <div>

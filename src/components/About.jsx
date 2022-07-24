@@ -1,7 +1,7 @@
 import React from "react";
 import style from './css/About.module.css'
 import Fade from 'react-reveal/Fade';
-import yo from './img/yo.jpg' 
+
 const About = () => {
   return (
     <div className={style.contenedor}>

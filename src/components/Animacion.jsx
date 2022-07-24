@@ -26,7 +26,7 @@ const Animacion = () => {
         <div className={style.section}>
           <img
             className={style.img}
-            src="https://i.pinimg.com/originals/a5/a3/44/a5a3444e0a5bfc872efa334110fe3ed5.png"
+            src="https://c.tenor.com/xMGn2xPAKvQAAAAC/approved.gif"
             alt="imagen"
           />
           <div className={style.cen}>
@@ -72,11 +72,7 @@ const Animacion = () => {
         <div className={style.abrir}><h1 className={style.h1}>Feedback</h1> <a  onClick={abrirCerrarModal}><img className={style.cohete} src="https://img.icons8.com/color-glass/344/launched-rocket.png" alt='img'/></a> </div>
        
       </Bounce>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
+      
      
     </div>
   );
