@@ -88,7 +88,7 @@ const Principal = () => {
         </div>
         <div className={s.center}>
           <a
-            href="https://drive.google.com/file/d/1bvhggXv_9rjPF7O9-5eltfdw19nll56s/view?usp=sharing"
+            href="https://drive.google.com/file/d/1SXkb-mh8u1TcQ9SE8CP3ouTIraGh0glO/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className={s.cv}
