@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import henry from './img/titulo.png'
 import html from './img/Html-css.jpg';
-import lineaComandos from './img/Html-css.jpg'
+import lineaComandos from './img/lineadecomandos.jpg'
 import pBasica from './img/progracionBasica.jpg';
 import laWeb from './img/historiadelaWeb.jpg';
 
