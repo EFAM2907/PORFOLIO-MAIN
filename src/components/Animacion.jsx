@@ -4,6 +4,7 @@ import style from "./css/Animacion.module.css";
 import Bounce from "react-reveal/Bounce";
 import { Modal } from "@material-ui/core";
 import Form  from './Form'
+import {Link} from 'react-router-dom'
 
 
 const Animacion = () => {
@@ -65,13 +66,22 @@ const Animacion = () => {
 
           </div>
 
+ 
           <Modal className={style.modal} open={modal} onClose={abrirCerrarModal}>
             {body}
           </Modal>
         </div>
-        <div className={style.abrir}><h1 className={style.h1}>Feedback</h1> <a  onClick={abrirCerrarModal}><img className={style.cohete} src="https://img.icons8.com/color-glass/344/launched-rocket.png" alt='img'/></a> </div>
+        <div className={style.abrir}><h1 className={style.h1}>Feedback</h1> <a  onClick={abrirCerrarModal}><img className={style.cohete} src="https://img.icons8.com/color-glass/344/launched-rocket.png" alt='img'/></a> 
+        <div className={style.desliza}>
+        <a className={style.area}  onClick={abrirCerrarModal}>
+           GO ⬇
+           
+        </a>
+      </div>
+        </div>
        
       </Bounce>
+
       
      
     </div>
