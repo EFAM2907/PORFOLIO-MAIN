@@ -8,6 +8,12 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import henry from './img/titulo.png'
+import html from './img/Html-css.jpg';
+import lineaComandos from './img/Html-css.jpg'
+import pBasica from './img/progracionBasica.jpg';
+import laWeb from './img/historiadelaWeb.jpg';
+
+
 
 function Carousell() {
 
@@ -29,7 +35,18 @@ function Carousell() {
         <SwiperSlide>
         {<img src={henry} alt="certificado" className={s.img} />}
       </SwiperSlide>
-     
+      <SwiperSlide>
+        {<img src={html} alt="certificado" className={s.img} />}
+      </SwiperSlide>
+      <SwiperSlide>
+        {<img src={lineaComandos} alt="certificado" className={s.img} />}
+      </SwiperSlide>
+      <SwiperSlide>
+        {<img src={pBasica} alt="certificado" className={s.img} />}
+      </SwiperSlide>
+      <SwiperSlide>
+        {<img src={laWeb} alt="certificado" className={s.img} />}
+      </SwiperSlide>
   
      
       .............

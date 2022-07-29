@@ -12,7 +12,7 @@ import "react-toastify/dist/ReactToastify.css";
 const Principal = () => {
   const noti = () => {
     toast(
-      <img className={s.noti} src="https://c.tenor.com/jKfC-mTLjdcAAAAM/shrekwelcome.gif" alt='img' />,
+      <img className={s.noti} src="https://i.pinimg.com/originals/f2/c7/f6/f2c7f62b7cfa21d1e92088c855aa3bd4.gif" alt='img' />,
     
       {
         
@@ -46,6 +46,7 @@ const Principal = () => {
       <section className={s.About}>
         <About />
       </section>
+      <br/>
       <section className={s.Proye}>
         <h1 className={s.Title}>Proyectos</h1>
         <Proyecto />

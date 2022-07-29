@@ -4,7 +4,6 @@ import style from "./css/Animacion.module.css";
 import Bounce from "react-reveal/Bounce";
 import { Modal } from "@material-ui/core";
 import Form  from './Form'
-import {Link} from 'react-router-dom'
 
 
 const Animacion = () => {
@@ -82,6 +81,12 @@ const Animacion = () => {
        
       </Bounce>
 
+  <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
       
      
     </div>
