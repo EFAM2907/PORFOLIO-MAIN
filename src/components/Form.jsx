@@ -2,6 +2,7 @@ import React from "react";
 import s from "./css/Form.module.css";
 import { TextField } from "@material-ui/core";
 import {ToastContainer } from "react-toastify";
+import emailjs from '@emailjs/browser'
 import "react-toastify/dist/ReactToastify.css";
 const Form = ({ abrirCerrarModal }) => {
   
@@ -9,7 +10,8 @@ const Form = ({ abrirCerrarModal }) => {
 
   const sendEmail = (e) => {
     e.preventDefault()
-    .then(
+    emailjs.sendForm('service_ck117nt', 'template_z4bym3b', e.target,'jKnPHY38cuv9VjbeT')
+    .then(e => console.log('esto es email',e),
     abrirCerrarModal() )
       .catch(error => (console.log(error)));
   };
@@ -17,7 +19,7 @@ const Form = ({ abrirCerrarModal }) => {
   return (
     <div className={s.container}>
       <h1 className={s.titu}>deja tu Feedback aqui 👇</h1>
-      <form className={s.Form} onsubmit={e => sendEmail(e)} action="https://formsubmit.co/efam2907@gmail.com" method="POST">
+      <form className={s.Form} onSubmit={e => sendEmail(e)} >
         <div>
           <TextField
             className={s.input}
