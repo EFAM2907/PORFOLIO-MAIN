@@ -18,6 +18,7 @@ const About = () => {
        <p className={style.parrafo}>👋 Hola! Mi nombre es edwin,Soy un Desarollador Full Stack Con Inclinacion al Frontend! Siempre busque Algo que me sacara de lo rutinario Y De Repente Boom 💥Encontre Mi Lugar</p>
       <a className={style.boton} href='https://drive.google.com/file/d/1SXkb-mh8u1TcQ9SE8CP3ouTIraGh0glO/view?usp=sharing' target="_blank" rel="noopener noreferrer">ver CV🚀</a>
        </div>
+       
        </Fade>
       </div>
       

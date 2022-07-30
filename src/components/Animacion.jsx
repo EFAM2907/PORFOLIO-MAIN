@@ -6,6 +6,8 @@ import { Modal } from "@material-ui/core";
 import Form  from './Form'
 
 
+
+
 const Animacion = () => {
   const [modal, setModal] = useState(false);
   const abrirCerrarModal = () => {
@@ -16,6 +18,8 @@ const Animacion = () => {
       <Form abrirCerrarModal={abrirCerrarModal} />
     </div>
   );
+
+  
 
   return (
     
@@ -72,9 +76,8 @@ const Animacion = () => {
         </div>
         <div className={style.abrir}><h1 className={style.h1}>Feedback</h1> <a  onClick={abrirCerrarModal}><img className={style.cohete} src="https://img.icons8.com/color-glass/344/launched-rocket.png" alt='img'/></a> 
         <div className={style.desliza}>
-        <a className={style.area}  onClick={abrirCerrarModal}>
+        <a className={style.area} onClick={abrirCerrarModal} >
            GO ⬇
-           
         </a>
       </div>
         </div>
@@ -94,6 +97,7 @@ const Animacion = () => {
 };
 
 export default Animacion;
+
 
 {/*    <div className="trigger"></div>
           <div className="trigger"></div>

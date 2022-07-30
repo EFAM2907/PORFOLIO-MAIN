@@ -4,6 +4,8 @@ import { TextField } from "@material-ui/core";
 import {ToastContainer,toast } from "react-toastify";
 import emailjs from '@emailjs/browser'
 import "react-toastify/dist/ReactToastify.css";
+import Swal from 'sweetalert2'
+
 const Form = ({ abrirCerrarModal }) => {
   
 
@@ -11,22 +13,13 @@ const Form = ({ abrirCerrarModal }) => {
   const sendEmail = (e) => {
     e.preventDefault()
     emailjs.sendForm('service_ck117nt', 'template_z4bym3b', e.target,'jKnPHY38cuv9VjbeT')
-    .then(toast(
-      <img className={s.tamaño} src='https://c.tenor.com/Twb0fUYotxUAAAAC/gracias-pixar.gif'
-      alt='feedbackThanks' />,
-      {
-        position: "top-center",
-        autoClose: 4000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-      }
-    )
-      ,
-    abrirCerrarModal() )
-      .catch(error => (console.log(error)));
+    
+      Swal.fire(
+        'Gracias Por Tu Feedback',
+        'Pronto Sera Revisado',
+        'success'
+          )
+   abrirCerrarModal() 
   };
 
   return (
