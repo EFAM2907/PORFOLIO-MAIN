@@ -61,10 +61,10 @@
   
   
 }
-.fixed{
+/* .fixed{
   
   position: fixed;
-}
+} */
 
 .img{
   width: 250px;
@@ -132,6 +132,10 @@
   
 }
 
+.bajar{
+  text-decoration: none;
+}
+
 .h1{
   color: #fff;
   display:none;
@@ -147,10 +151,10 @@ margin-bottom:10px;
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-body{
+/* body{
  /* background:url('http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/noisy_net.png') repeat; */
-  font-family: "Open Sans",  Impact;
-}
+  /* font-family: "Open Sans",  Impact;
+}  */
 .area{
   text-align:center;
   font-size:3.5em;
