@@ -48,7 +48,7 @@ const Principal = () => {
       </section>
       <br/>
       <section className={s.Proye}>
-        <h1 className={s.Title}>Proyectos</h1>
+        {/* <h1 className={s.Title}>Proyectos</h1> */}
         <Proyecto />
       </section>
       <section className={s.tecno}>

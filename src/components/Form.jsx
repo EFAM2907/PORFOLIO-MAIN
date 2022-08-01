@@ -12,6 +12,7 @@ const Form = ({ abrirCerrarModal }) => {
 
   const sendEmail = (e) => {
     e.preventDefault()
+    
     emailjs.sendForm('service_ck117nt', 'template_z4bym3b', e.target,'jKnPHY38cuv9VjbeT')
     
       Swal.fire(
