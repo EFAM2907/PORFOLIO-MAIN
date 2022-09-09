@@ -92,7 +92,6 @@ const Principal = () => {
             target="_blank"
             rel="noopener noreferrer"
             className={s.cv}
-            
           >
             Ver cv
           </a>

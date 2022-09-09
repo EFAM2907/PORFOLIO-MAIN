@@ -8,7 +8,7 @@ const Proyecto = () => {
       {/* PATITAS */}
       <div className={s.Proyecto}>
         <div className={s.Proye}>
-          <img className={s.img} src='https://www.weare-family.com/petfanmx/wp-content/uploads/sites/10/2021/03/adopcion-mascotas.jpg'alt="imf" />
+          <img className={s.img} src='https://telemedellin.tv/wp-content/uploads/2019/08/La-Perla-e1565797876677.jpg'alt="imf" />
            <h4 className={s.h4}>Patitas🐾</h4>
           <p className={s.parra}>
           Este Proyecto Surgio  Con La Idea De Hacer Un Beneficio Social,
