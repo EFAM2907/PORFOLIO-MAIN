@@ -88,10 +88,11 @@ const Principal = () => {
         </div>
         <div className={s.center}>
           <a
-            href="https://drive.google.com/file/d/1SXkb-mh8u1TcQ9SE8CP3ouTIraGh0glO/view?usp=sharing"
+            href="https://drive.google.com/file/d/1FfQzdt0EKR_lrrWofcvPxi8wKauSYYiT/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className={s.cv}
+            
           >
             Ver cv
           </a>
